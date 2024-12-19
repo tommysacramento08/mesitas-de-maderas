@@ -1,0 +1,99 @@
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0%;
+padding: 1%;
+background-color: burlywood; }
+header {
+    text-align: center; 
+background-color: antiquewhite;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0%;
+}
+nav ul li {
+   display: inline; 
+   margin: 0% 150px;
+}
+#productos {
+    padding: 20px;
+    background-color: brown;
+    margin-bottom: 40px;
+}
+.conten-prod {
+display: flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.card {
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    max-width: 100%;
+    height:auto;
+    border-radius: 5px;
+}
+.btn {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contacto {
+    padding: 20px;
+    background-color: brown;
+    margin-bottom: 40px;
+}
+.contac-iconos {
+    display: inline;
+    flex-wrap:wrap;
+    justify-content:center;
+    }
+    .iconos {
+        background-color: aqua;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        width: 150px;
+        text-align: center;
+        transition: transform 0.3s;
+        overflow: hidden;
+    }
+    .iconos:hover {
+        transform: scale(1.05);
+    }
+    .iconos img {
+        max-width: 100%;
+        height:auto;
+        border-radius: 5px;
+    }
+    .btn {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px;
+    font-size: larger;
+    width: 15px;
+    text-align: center;
+
+}
+
